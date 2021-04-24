@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Appui Scolaire Blog</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Appui Scolaire Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Apr 2021 12:36:03 -0400</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Tutoring Challenges in Covid-19 Era</title>
+      <link>http://example.org/posts/quarkus-appui-intro/</link>
+      <pubDate>Thu, 22 Apr 2021 12:36:03 -0400</pubDate>
+      
+      <guid>http://example.org/posts/quarkus-appui-intro/</guid>
+      <description>For the past seven years, as a non-for-profit organization, we have been offering a free tutoring service for elementary and high school students in the Greater Toronto Area. Before the pandemic, all tutoring sessions took place in public libraries and school buildings across the region. With Covid, that had to change. This article explains what we did pre-covid and the challenges we faced in our initial digital transformation attempt.
+The struggles that school systems face around the world, and the resulting &amp;ldquo;COVID Learning Loss&amp;rdquo;, cause a growing demand for online tutoring programs.</description>
+    </item>
+    
+  </channel>
+</rss>

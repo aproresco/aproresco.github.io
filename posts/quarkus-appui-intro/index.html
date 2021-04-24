@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.79.1" />
+
+<link rel="canonical" href="http://example.org/posts/quarkus-appui-intro/">
+<meta property="og:title" content="Online Tutoring Challenges in Covid-19 Era" />
+<meta property="og:description" content="For the past seven years, as a non-for-profit organization, we have been offering a free tutoring service for elementary and high school students in the Greater Toronto Area. Before the pandemic, all tutoring sessions took place in public libraries and school buildings across the region. With Covid, that had to change. This article explains what we did pre-covid and the challenges we faced in our initial digital transformation attempt.
+The struggles that school systems face around the world, and the resulting &ldquo;COVID Learning Loss&rdquo;, cause a growing demand for online tutoring programs." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/quarkus-appui-intro/" />
+<meta property="article:published_time" content="2021-04-22T12:36:03-04:00" />
+<meta property="article:modified_time" content="2021-04-22T12:36:03-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Online Tutoring Challenges in Covid-19 Era"/>
+<meta name="twitter:description" content="For the past seven years, as a non-for-profit organization, we have been offering a free tutoring service for elementary and high school students in the Greater Toronto Area. Before the pandemic, all tutoring sessions took place in public libraries and school buildings across the region. With Covid, that had to change. This article explains what we did pre-covid and the challenges we faced in our initial digital transformation attempt.
+The struggles that school systems face around the world, and the resulting &ldquo;COVID Learning Loss&rdquo;, cause a growing demand for online tutoring programs."/>
+
+
+<meta itemprop="name" content="Online Tutoring Challenges in Covid-19 Era">
+<meta itemprop="description" content="For the past seven years, as a non-for-profit organization, we have been offering a free tutoring service for elementary and high school students in the Greater Toronto Area. Before the pandemic, all tutoring sessions took place in public libraries and school buildings across the region. With Covid, that had to change. This article explains what we did pre-covid and the challenges we faced in our initial digital transformation attempt.
+The struggles that school systems face around the world, and the resulting &ldquo;COVID Learning Loss&rdquo;, cause a growing demand for online tutoring programs.">
+<meta itemprop="datePublished" content="2021-04-22T12:36:03-04:00" />
+<meta itemprop="dateModified" content="2021-04-22T12:36:03-04:00" />
+<meta itemprop="wordCount" content="1206">
+
+
+
+<meta itemprop="keywords" content="" />
+
+
+<link rel="stylesheet" href="/css/layout.css" />
+
+
+<link rel="stylesheet" href="/css/default-dark.css" />
+
+
+
+
+<title>
+
+
+     Online Tutoring Challenges in Covid-19 Era 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="http://example.org/">Appui Scolaire Blog</a>
+    </div> 
+
+    
+    
+
+  </nav>
+
+  
+<div class="social-links-header">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Online Tutoring Challenges in Covid-19 Era </h1>
+    <div class="content"> <p><img src="https://images.pexels.com/photos/5427862/pexels-photo-5427862.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="Semantic description of image" title="Image Title"></p>
+<p>For the past seven years, as a non-for-profit organization, we have been offering a free tutoring service for elementary and high school students in the
+Greater Toronto Area. Before the pandemic, all tutoring sessions took place in public libraries and school buildings across the region.
+With Covid, that had to change. This article explains what we did pre-covid  and the
+challenges we faced in our initial digital transformation attempt.</p>
+<p>The struggles that school systems face around the world, and the resulting <a href="https://fortune.com/2021/01/13/covid-students-impact-tutoring-education/">&ldquo;COVID Learning Loss&rdquo;</a>, cause a growing demand for online tutoring programs.
+This has resulted in governments such as the <a href="https://nationaltutoring.org.uk">UK</a> or <a href="https://montrealgazette.com/news/local-news/quebec-unveils-details-of-tutor-recruitment-program">Quebec</a>  creating  national tutoring programs. The benefit of tutoring is recognized
+in a studied done by economists who found that <a href="https://www.nber.org/papers/w27476">&ldquo;tutoring offers the potential for transformative academic impacts.&quot;</a></p>
+<p>However, according to the same economists, &ldquo;although the research gives encouraging
+news, the challenges of coordination and scale are significant.”</p>
+<p>In the next few months, we will  document the information system that we are implementing to resolve these scalability challenges.  We hope this exercise will herald the start of a broader conversation about how Open Source enhances the way we educate young minds.</p>
+<hr>
+<h2 id="offline-tutoring-workflow">Offline Tutoring Workflow</h2>
+<p><img src="https://images.pexels.com/photos/5428003/pexels-photo-5428003.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="Semantic description of image" title="Image Title"></p>
+<p>Our tutoring process used to be pretty simple. At the beginning of the school year, we would publish our calendar to inform students and parents of the times and days when tutoring would take place. We would also continuously recruit tutors and schedule them to assist according to the calendar.</p>
+<h3 id="who-runs-the-program">Who runs the program</h3>
+<p>The tutoring program is called appui.io and is ran by a group called Aproresco Education (Association pour la Promotion de la Reussite Scolaire). The group&rsquo;s responsibilities include recruting new volunteers, informing parents of the program, finding funding for the program, providing teaching resources,  and running tutoring sessions.</p>
+<h3 id="students-participation">Students' Participation</h3>
+<p>The main beneficiaries of our program are students from elementary and high school.
+There are no restrictions on subjects and grades offered by the tutoring program. Pre-pandemic, students would simply show up and get help on whatever topics or exercises they had challenges with. When students  had homeworks, tutors would help them  with these assignments. In cases where
+students had no specific tasks, tutors would use their teaching resources to identify exercises that students could work on.</p>
+<h3 id="matching-students-to-teachers">Matching students to teachers</h3>
+<p>On each tutoring day, students and tutors would appear at specified locations. Tutors would “organically” choose the students they felt would benefit most from their tutoring. Intrinsically and informally, tutors were matching up with prospective students by asking them about their grades,
+what they wanted to work on, what type of homework they expected help on, and what challenges they were facing. Tutors would then mentally process and match these pieces of information against the competencies of tutors who were present.</p>
+<p>The session would last up to two hours and conclude with the recording of attendance in a timesheet. The primary purpose of the timesheet was analytics and statistics.</p>
+<p>The process was  informal and manual; yet it worked fairly well. On average, we saw 30 students per location and per session. The ratio of students to teachers usually oscillated around 1:3.</p>
+<hr>
+<h2 id="pandemy-challenges">Pandemy Challenges</h2>
+<p><img src="https://images.pexels.com/photos/449609/pexels-photo-449609.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="Semantic description of image" title="Image Title"></p>
+<!-- raw HTML omitted -->
+<p>As soon as the pandemic hit, and all schools and public libraries were closed, we switched and  started offering our tutoring program online using some of the well known virtual meeting platforms.</p>
+<h3 id="initial-digital-transformation">Initial Digital Transformation</h3>
+<p>The most natural approach to transition from offline to online tutoring  was to map our previous offline process to the online world.</p>
+<p>This  entailed:</p>
+<ol>
+<li>
+<p>Receiving phone calls from parents who wanted to register their children for tutoring sessions.</p>
+</li>
+<li>
+<p>Maintaining students' registrations using a spreadsheet that included parents and student information such as phone numbers, email addresses, grades, and subjects.</p>
+</li>
+<li>
+<p>Creating a virtual war room where all administrators would meet before each tutoring session. This room never changed and remained the same from one tutoring session to the other one.</p>
+</li>
+<li>
+<p>On the tutoring day, administrators would meet in the virtual war room before the tutoring session and generate conference links for tutors and their virtual classrooms.</p>
+</li>
+<li>
+<p>Manually matching students to tutors based on grades and subjects. For each student in the registration spreadsheet, we would go through the list of tutors, find the most adequate tutor, and make a note of the assignment relationship.</p>
+</li>
+<li>
+<p>Based on the registration spreadsheet,  send emails to students, parents, and tutors, including information for connecting to the virtual classroom.</p>
+</li>
+<li>
+<p>Once the tutoring starts, frequently visit virtual classrooms to detect absent or disconnected students and tutors.</p>
+</li>
+<li>
+<p>Follow up with disconnected tutors and students for technical support.</p>
+</li>
+</ol>
+<p>Over the course of the past months, we tried various variations of this process such as  using breakout rooms or calendars.  The statement by Prof. Oreopoulos and his colleagues sums up  our experience intriguely well: <a href="https://www.nber.org/papers/w27476">“The logistics of setting this up on the kind of scale we need to address the problem is more complicated than we initially realized. To try to set this up and deal with the operational challenges of making it easy for the students to actually receive the help, to ensure safety, to find the right match — the progress can be slower than we’d like.”</a></p>
+<p>In sum, while these processes do work in small settings, scaling them to the level required to make significant impact is the main challenge.</p>
+<p><img src="https://images.pexels.com/photos/4260325/pexels-photo-4260325.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="Semantic description of image" title="Image Title"></p>
+<h3 id="why-were-things-so-painful">Why were things so painful</h3>
+<p>Assigning students to tutors while taking into considerations constrains such as grades and subjects is a <a href="https://en.wikipedia.org/wiki/Mathematical_optimization">mathematical optimization</a> problem.
+And optimization problems are notoriously hard to solve, particularly when attempted manually. In our case, this process could take up to two hours. This was further aggravated by
+the fact that students and tutors could excuse themselves up to few minutes before the tutoring session, which often rendered the matching irrelevant just a few minutes before the tutoring sessions, resulting in chaos and confusion.</p>
+<p>Other challenges we faced included:</p>
+<ol>
+<li>
+<p>Over time, students and tutors accumulated so many virtual classroom links that they started using ones that were out of date, which resulted increased confusion.</p>
+</li>
+<li>
+<p>In all, it took a ridiculous amount of technical support just to get everybody connected. It was incredibly difficult to monitor what was going on in virtual classrooms. For instance, if a tutor suddenly had connection issues, students could find themselves alone in meeting rooms. At best, this meant poor user experience for students, especially for the little ones. At worst, this could provide an environment that enables cyberbullying.</p>
+</li>
+<li>
+<p>The gap in digital litteracy not only among students but also among tutors was also noticeable. For instance, we stoped using calendars because the process of going to one&rsquo;s calendar and clicking on the virtual classroom links turned out to be fairly complex for many.</p>
+</li>
+</ol>
+<p>In the end, we had amassed a collection of statistics that clearly showed that we really needed some automation and that alone, traditional virtual conference platforms were insufficient.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Online tutoring programs abund. Yet, there is enough emprirical and research evidence that illustrate that these programs hardly scale.
+Our experience and that of others illustrate why <a href="https://www.the74million.org/using-tutors-to-combat-covid-learning-loss-new-research-shows-that-even-lightly-trained-volunteers-drive-academic-gains/">&ldquo;while individual programs often demonstrate impressive results, however, the cost of bringing them to scale has tended to derail the conversation.&quot;</a> In the next article, we will describe an open source initiative to tackle this scalability issue.</p>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+            
+<div class="tags">
+  
+</div>
+
+    <div class="date"> 2021-04-22 </div>
+    
+  </div>
+</footer>
+
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <div class="social-link">
+  <a href="http://example.org/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright">  </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+
